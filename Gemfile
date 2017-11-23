@@ -33,6 +33,7 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+gem 'faker', github: 'stympy/faker'
 gem 'haml-rails'
 gem 'serviceworker-rails'
 
@@ -45,7 +46,6 @@ group :development, :test do
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
   gem 'sqlite3'
-  gem 'faker', github: 'stympy/faker'
 end
 
 group :development do
